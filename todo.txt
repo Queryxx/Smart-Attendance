@@ -1,0 +1,16 @@
+1. add a alternative way to record attendace and use when the face recognition was not working
+and the alternative way is the qr code, when they scan the qr code they will navigate to a link
+to a page which has a form to fill up, the form contains student number and location using gps of 
+their device and that form  should display the event which currently active in they scanned qr code
+and the form should have a submit button and when they submit the form it should record the attendance
+of the student in the event based on the time they submitted 
+
+2.add location in the event table and create table attendance_location that contains(id, student_id, location,event_id, timesstamp)
+
+3. Add column email, qr_code in the students table
+
+4. if a student choose to attendance using qr code then fill out the forms they will receive an email that they are attended to that event 
+
+6. in import student, add email column in the excel and when it imports it should validate if there is an email and when
+ the excel was import the data in the firstname lastname that is all uppercase should convert to first letter uppercase 
+ only and also when the data is lower case it should conver to First uppercase only 
